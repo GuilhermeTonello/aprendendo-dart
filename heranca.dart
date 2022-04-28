@@ -5,6 +5,9 @@ void main() {
     print(f.isMadura);
 
     f.printAlimento();
+
+    FrutaCitrica laranja = FrutaCitrica('Laranja', 100.0, 'Verde amarelada', 1.0);
+    laranja.printAlimento();
 }
 
 class Alimento {
